@@ -5,6 +5,12 @@ Works with all fabric version, I think
 
 Download : [Download Download Downlaod downlaod download download free!!!!!!](https://modrinth.com/mod/f-server-pack/versions#all-versions)
 
+## Warning !!!
+![](https://raw.githubusercontent.com/veski-dev/fserverpack/master/resources/warning.png)
+
+## Features !
+![](https://raw.githubusercontent.com/veski-dev/fserverpack/master/resources/info.png)
+
 | Version | Tested | cowpoop column    | cowpoop column           | cowpoop 3                |
 |---------|--------|-------------------|--------------------------|--------------------------|
 | 1.20.1  | yes    | java version 17   | every fabric api         | every fabric api         |
