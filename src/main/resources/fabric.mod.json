@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fserverpack",
+	"version": "${version}",
+	"name": "F Server Pack",
+	"description": "A Minecraft mod that disables the requirement for server resource packs",
+	"authors": [
+		"veski"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/fuckserverpack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "dev.veski.fuckserverpack.FuckServerPack"
+		],
+		"client": [
+			"dev.veski.fuckserverpack.FuckServerPackClient"
+		],
+		"fabric-datagen": [
+			"dev.veski.fuckserverpack.FuckServerPackModDataGenerator"
+		]
+	},
+	"mixins": [
+		"fuckserverpack.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
